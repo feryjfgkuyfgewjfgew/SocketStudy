@@ -1,9 +1,5 @@
-
-
-
-
-
-
+## name;naresh.r
+## reg.no: 212223240104
 # Ex.No:1a  			Study of Socket Programming
 
 ## Aim: 
@@ -88,10 +84,9 @@ while True:
 	s.send("Acknowledgement Recived".encode())
 ```
 ## Output:
-## Client:
-![image](https://github.com/Msuren48106/SocketStudy/assets/150503875/f8891591-167b-49a5-b1a9-0cac31fe4c5b)
-## Server:
-![image](https://github.com/Msuren48106/SocketStudy/assets/150503875/64af9bf2-3e11-4bd4-9331-3f240b551009)
+## Client:,server
+![Screenshot 2024-04-15 151454](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/a5e536bf-31ba-49aa-9f4d-eccfeac6e831)
+
 
 
 ## Result:
