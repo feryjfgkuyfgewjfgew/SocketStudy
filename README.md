@@ -1,7 +1,7 @@
-## name;naresh.r
-## reg.no: 212223240104
-# Ex.No:1a  			Study of Socket Programming
 
+# Ex.No:1a  			Study of Socket Programming
+## NAME : NARESH.R
+## REG.NO:212223240104
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
@@ -84,8 +84,12 @@ while True:
 	s.send("Acknowledgement Recived".encode())
 ```
 ## Output:
-## Client:,server
-![Screenshot 2024-04-15 151454](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/a5e536bf-31ba-49aa-9f4d-eccfeac6e831)
+### Client:
+<img width="936" alt="Screenshot 2024-04-09 at 12 43 12 PM" src="https://github.com/aaron-h-2k5/SocketStudy/assets/144250957/5120307f-d016-4c97-92c5-2081432d387d">
+
+### Server:
+
+<img width="936" alt="Screenshot 2024-04-09 at 12 43 16 PM" src="https://github.com/aaron-h-2k5/SocketStudy/assets/144250957/f6989715-d10e-4a23-9382-a8090be7635c">
 
 
 
