@@ -83,12 +83,9 @@ while True:
 	s.send("Acknowledgement Recived".encode())
 ```
 ## Output:
-### Client:
-<img width="936" alt="Screenshot 2024-04-09 at 12 43 12 PM" src="https://github.com/aaron-h-2k5/SocketStudy/assets/144250957/5120307f-d016-4c97-92c5-2081432d387d">
+### Client ,Server:
+![image](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/090fc113-167b-44ff-8f1b-9dffb9832d8a)
 
-### Server:
-
-<img width="936" alt="Screenshot 2024-04-09 at 12 43 16 PM" src="https://github.com/aaron-h-2k5/SocketStudy/assets/144250957/f6989715-d10e-4a23-9382-a8090be7635c">
 
 
 
