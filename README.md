@@ -58,33 +58,33 @@ Socket programming finds applications in various domains, including web developm
 ## Client:
 ```
 import socket
+from datetime import datetime
 s=socket.socket()
-s.bind(('localhost',8000))
+s.bind(('localhost',8002))
 s.listen(5)
 c,addr=s.accept()
-while True:
-	i=input("Enter a data: ")
-	c.send(i.encode())
-	ack=c.recv(1024).decode()
-		if ack:
-			print(ack)
-			continue
-		else:
-			c.close()
-			break
+print("Client Address : ",addr)
+now = datetime.now()
+c.send(now.strftime("Date: %d/%m/%Y and Time: %H:%M:%S").encode())
+ack=c.recv(1024).decode()
+if ack:
+  print(ack)
+c.close()
 ```
 ## Server:
 ```
 import socket
 s=socket.socket()
-s.connect(('localhost',8000))
-while True:
-	print(s.recv(1024).decode())
-	s.send("Acknowledgement Recived".encode())
+s.connect(('localhost',8002))
+print(s.getsockname())
+print(s.recv(1024).decode())
+s.send("acknowledgement recived from the server".encode())
+
 ```
 ## Output:
 ### Client ,Server:
-![image](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/090fc113-167b-44ff-8f1b-9dffb9832d8a)
+![image](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/752791aa-e1ad-4e5c-827c-613d33c98f62)
+
 
 
 
