@@ -86,7 +86,8 @@ s.send("acknowledgement recived from the server".encode())
 ![Screenshot 2024-05-17 125643](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/ae5290f2-7402-446e-93ea-419f91111aad)
 
 ## Server:
-![Screenshot 2024-05-17 130249](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/ce07aefe-1c19-43f6-b15a-963ab09adbdd)
+![image](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/49b6762a-3f6d-47b7-993f-6117b3385a2a)
+
 
 
 
