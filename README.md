@@ -82,8 +82,12 @@ s.send("acknowledgement recived from the server".encode())
 
 ```
 ## Output:
-### Client ,Server:
-![image](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/752791aa-e1ad-4e5c-827c-613d33c98f62)
+### Client :
+![Screenshot 2024-05-17 125643](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/ae5290f2-7402-446e-93ea-419f91111aad)
+
+## Server:
+![Screenshot 2024-05-17 125536](https://github.com/feryjfgkuyfgewjfgew/SocketStudy/assets/150319377/ee86d07c-1287-4851-9b16-be891f59d9f6)
+
 
 
 
